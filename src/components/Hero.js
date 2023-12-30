@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navigation from "./Navigation";
 import heroBg from "../images/hero-bg-image.jpg";
-import CV from "../images/portfolio_design.jpg";
+import CV from "../assets/Okeoghene's CV.pdf";
 
 const Hero = () => {
   const [output, setOutput] = useState({
