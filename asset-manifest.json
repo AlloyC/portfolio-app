@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.f50a48e8.css",
-    "main.js": "/portfolio-app/static/js/main.e0a0247b.js",
+    "main.js": "/portfolio-app/static/js/main.714c2f8e.js",
     "static/media/hero-bg-image.jpg": "/portfolio-app/static/media/hero-bg-image.741102b155858c38c033.jpg",
     "static/media/footer-bg@3x.png": "/portfolio-app/static/media/footer-bg@3x.946b5d1234b5d4e43547.png",
     "static/media/site-4.jpeg": "/portfolio-app/static/media/site-4.0630fdd22794e2a5d914.jpeg",
     "static/media/IMG_2409.png": "/portfolio-app/static/media/IMG_2409.3a6aaafa0abad7c1729a.png",
     "static/media/site-5.jpeg": "/portfolio-app/static/media/site-5.87e02c81cd2ec5141891.jpeg",
     "static/media/site-2.jpeg": "/portfolio-app/static/media/site-2.8af96c5d90cc96ca3ce2.jpeg",
-    "static/media/Okeoghene's CV.pdf": "/portfolio-app/static/media/Okeoghene's CV.ccef1e5279b9ef9e175f.pdf",
+    "static/media/Okeoghene John web-developer resume.pdf": "/portfolio-app/static/media/Okeoghene John web-developer resume.7cc4d55408dcd8c7552a.pdf",
     "static/media/github.png": "/portfolio-app/static/media/github.ecf329c2c06a1f41fae4.png",
     "static/media/site-1.jpeg": "/portfolio-app/static/media/site-1.8b0044100563ee7c850c.jpeg",
     "static/media/site-3.jpeg": "/portfolio-app/static/media/site-3.407f71a6a2541c55d828.jpeg",
@@ -21,10 +21,10 @@
     "static/media/git.png": "/portfolio-app/static/media/git.7d664489ed331806ddc8.png",
     "index.html": "/portfolio-app/index.html",
     "main.f50a48e8.css.map": "/portfolio-app/static/css/main.f50a48e8.css.map",
-    "main.e0a0247b.js.map": "/portfolio-app/static/js/main.e0a0247b.js.map"
+    "main.714c2f8e.js.map": "/portfolio-app/static/js/main.714c2f8e.js.map"
   },
   "entrypoints": [
     "static/css/main.f50a48e8.css",
-    "static/js/main.e0a0247b.js"
+    "static/js/main.714c2f8e.js"
   ]
 }
