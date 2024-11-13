@@ -7,6 +7,7 @@ import instagram from "../images/icons8-instagram-96.png";
 import github from "../images/icons8-github-96.png";
 
 const Footer = () => {
+  const mailto = "okeoghenejohn10@gmail.com";
   return (
     <div
       id="contact"
@@ -51,12 +52,14 @@ const Footer = () => {
           />
         </form>
         <div className="flex flex-col justify-start items-start w-fit md:row-start-2 md:row-end-3 col-start-1 col-end-2 md:px-9">
-          <div className="flex justify-center items-center gap-2">
-            <img src={mail} className="h-5" alt="mail icon" />
-            <p className="text-gray-300 md:text-lg font-semibold">
-              Email: jonnyscience08@gmail.com
-            </p>
-          </div>
+          <a className="cursor-pointer" href={`mailto:${mailto}`}>
+            <div className="flex justify-center items-center gap-2">
+              <img src={mail} className="h-5" alt="mail icon" />
+              <p className="text-gray-300 md:text-lg font-semibold">
+                Email: okeoghenejohn10@gmail.com
+              </p>
+            </div>
+          </a>
           <div className="flex justify-center items-center gap-2">
             <img src={phone} className="h-5" alt="mail icon" />
             <p className="text-gray-300 md:text-lg font-semibold">

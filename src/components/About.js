@@ -6,8 +6,11 @@ import javascriptLogo from "../images/javascript-logo.png";
 import reactLogo from "../images/react-javascript.png";
 import tailwindcssLogo from "../images/tailwindcss_logo.png";
 import cssLogo from "../images/css-logo.png";
+import nextLogo from "../images/nextjs.jpeg";
+import firebaseLogo from "../images/fiebase.png";
 
 const About = () => {
+  const mailto = "okeoghenejohn10@gmail.com";
   return (
     <section className="relative left-[50%] translate-x-[-50%] container md:max-w-6xl lg:items-center justify-items-center grid lg:gap-5 lg:grid-cols-2 lg:row-auto px-7 py-14 lg:px-20 grid-flow-row-dense">
       <div className="bd-profile container max-w-md">
@@ -30,15 +33,20 @@ const About = () => {
           am presently pursuing a bachelor of engineering in electrical and
           electronics engineering, and I'm in fourth year of school. I am
           proficient in frontend web development technologies such as HTML, CSS,
-          Javascript, React, Bootstrap, and Tailwind CSS. In addition, I have
-          extensive experience of other technologies, such as git and github. My
-          proficiency lies in comprehending and writing codes that are clean,
-          effective, and reusable with minimal upkeep.
+          Javascript, React, Bootstrap, Nextjs, Firebase and Tailwind CSS. In
+          addition, I have extensive experience of other technologies, such as
+          git and github. My proficiency lies in comprehending and writing codes
+          that are clean, effective, and reusable with minimal upkeep.
         </p>
 
         <div className="text-gray-50 self-start font-semibold mt-10 text-lg">
           <h3>Name: John Okeoghene</h3>
-          <h3>Email: jonnyscience08@gmail.com</h3>
+          <h3>
+            Email:{" "}
+            <a className="cursor-pointer" href={`mailto:${mailto}`}>
+              okeoghenejohn10@gmail.com
+            </a>
+          </h3>
           <h3>Mobile: +2349053778947</h3>
         </div>
       </section>
@@ -64,6 +72,12 @@ const About = () => {
           </li>
           <li>
             <img src={githubLogo} alt="" className="h-12" />
+          </li>
+          <li>
+            <img src={nextLogo} alt="" className="h-12" />
+          </li>
+          <li>
+            <img src={firebaseLogo} alt="" className="h-12" />
           </li>
           <li>
             <img src={gitLogo} alt="" className="h-12" />
